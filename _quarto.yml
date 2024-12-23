@@ -3,7 +3,6 @@ project:
   output-dir: docs
 
 website:
-  title: "mysite"
   navbar:
     left:
       - href: index.qmd
@@ -12,9 +11,23 @@ website:
 
 format:
   html:
-    theme: cosmo
+    other-links:
+      - text: My site
+        href: https://waltjer.github.io/mysite/
+      - icon: linkedin
+        text: LinkedIn
+        href: https://www.linkedin.com/in/huy-do-a9681a156/
+      - icon: github
+        text: GitHub
+        href: https://github.com/Waltjer
+      - icon: facebook
+        text: Facebook
+        href: https://www.facebook.com/Waltjer.DH
+      - text: Email
+        href: mailto:huydd1905@gmail.com
+    theme: 
+      light: minty
+      dark: darkly
     css: styles.css
     toc: true
-
-editor: visual
-
+    page-layout: full

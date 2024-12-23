@@ -1,11 +1,149 @@
 ---
-title: "mysite"
+title: "Huy Duc Do"
+image: media/headshot.jpg
+toc: true
+about: 
+  template: marquee
+  image-shape: round
+  image-width: 17em
 ---
 
-This is a Quarto website.
+Hi there! Welcome to my personal website - I hope that you can learn something new here about me - Then we can have a little fun chat - I'm planning to become a quantitative researcher in epidemiology and public health, and I'm trying hard to get there - Outside of work, I'm a nerd, a gamer, and a pop culture enthusiast -
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+# Education
 
-```{r}
-1 + 1
-```
+## Primary education
+**Hanoi University of Science - High School for Gifted Students** - Hanoi, Vietnam - **Biology** | Sept 2011 - June 2014
+
+**Hanoi Medical University** - Hanoi, Vietnam - **Doctor of Preventive Medicine** | Sept 2015 - June 2021
+
+**Hanoi Medical University** - Hanoi, Vietnam - **Master of Epidemiology** | Sept 2021 - June 2023
+
+## Coursera
+1. Systems thinking in public health - Johns Hopkins University
+
+2. Introduction to Systematic Review and Meta-Analysis - Johns Hopkins University
+
+3. Global Health: An Interdisciplinary Overview - University Of Geneva
+
+4. Learning How To Learn: Powerful mental tools to help you master tough subjects - McMaster University, University Of California San Diego
+
+5. Epidemiology: The Basic Science Of Public Health - The University Of North Carolina At Chapel Hill
+
+6. Introduction to Probability and Data with R - Duke University
+
+7. AI For Everyone - DeepLearningAI
+
+8. Machine Learning - DeepLearningAI
+
+9. Google Data Analytics Specialization
+
+# Experience
+## Work experience
+1. Bio-risk management Remote Engagement - Vietnam One Health University Network - **Intern** | 2018 - 2020
+2. Center for Training and Research on Substance Abuse HIV - Hanoi Medical University - **Data Analyst** | 2022 - 2024
+3. College of Health Sciences - Vin University - **Research Project Coordinator** | May 2024 - now
+4. The George Washington Institute of Data Science and Artificial Intelligence (ISODS) - **Intern** | June 2024 - now
+
+## Research projects
+1. Complete DNA-microarray technical process to identify congenital hearing loss gene mutations - Hanoi Medical
+University funded study - **Data collection, data analysis**
+
+2. Completing the technological process of producing a kit to determine the level of sperm DNA breakage to
+diagnose male infertility - Vietnam Ministry of Health funded study - **Data collection, data analysis**
+
+3. Evaluating the actual effectiveness of the AstraZeneca vaccine and important factors in preventing SARS-CoV-2
+infection in some at-risk communities in Vietnam - Vietnam State funded study - **Data collection, data analysis**
+
+4. Research to build an artificial intelligence system to support prenatal screening for some common abnormalities
+in Vietnam - Vietnam State funded study - **Data collection, data analysis**
+
+5 - Screen, Treat and Retain Meth-using People With Opioid Use Disorders at Methadone Clinics (STAR-OM) - US NIH
+funded study - **Data collection, data analysis**
+
+6. Feasibility Study for the Vietnam Cohort Study (VINCohort) - VinUni funded study (Ongoing) - **Coordinator**
+
+7. Apply AI models in predicting nutrition and physical activity level of Vietnamese youth - Vietnam State funded
+study (Ongoing) - **Data collection, data analysis**
+
+8. Rapid Reviews/Infectious Diseases - Gates Foundation funded study (Ongoing) - **Assistant editor**
+
+9. Prevalence of sexual orientation and gender identity change efforts and related psychosocial well-being in Vietnam - UNFPA funded study (Ongoing) - **Data collection, data analysis**
+
+## Teaching and mentoring
+1. Thesis Advisor, Center for Training and Research on Substance Abuse—HIV at Hanoi Medical University (2022 - 2024)
+2. Teaching Assistant, VinUniversity (May 2024 - now)
+
+# Publication
+## English paper
+1. Do HD, Allison JJ, Nguyen HL, et al. Applying machine learning in screening for Down Syndrome in both trimesters for diverse healthcare scenarios. Heliyon. 2024;10(15). doi:[10.1016/j.heliyon.2024.e34476](https://doi.org/10.1016/j.heliyon.2024.e34476)
+
+2. Phung NH, Nguyen CT, Tran TK, et al. A Combination of Multi-Branch CNN and Feature Rearrangement for Down Syndrome Prediction. In: 2023 International Conference on Artificial Intelligence in Information and Communication (ICAIIC). ; 2023:001-006. doi:[10.1109/ICAIIC57133.2023.10067118](https://doi.org/10.1109/ICAIIC57133.2023.10067118)
+
+3. Cuong TD, Ngoc NP, Anh TV, et al. Αlpha-thalassemia genotypes in Vietnam: a report of 12,030 pregnant women and their husbands performing prenatal screening for alpha-thalassemia. Med J Indones. 2023;32(1):13-18. doi:[10.13181/mji.oa.236635](https://doi.org/10.13181/mji.oa.236635)
+
+4. Vu To G, Do Duc H, Nguyen Thi T. Application of DNA microarray and next generation sequencing upon the detection of deafness genes. Journal of Medical Research. 110(1):10-16. doi:[10.52852/tcncyh.v110i1.1597](https://doi.org/10.52852/tcncyh.v110i1.1597)
+
+5. Nguyen Thi T, Do Duc H, Vu To G, Nguyen Thi Minh N, Luong Thi Lan A. Rapid real-time PCR for CYP2C19 and ITGB3 gene detection to optimize the use of clopidogrel and aspirin for PCI stent graft patients. Journal of Medical Research. 111(2):1-8. doi:[10.52852/tcncyh.v111i2.1596](https://doi.org/10.52852/tcncyh.v111i2.1596)
+
+6. Nguyen DB, Nguyen TT, Do HD, Hoang HVT, Thai TT, Do DV, Michael L, Steve S, Li L, Le GM. Non-Adherence to Treatment and Concurrent Opioid Use Among People on Methadone Maintenance Treatment Using Methamphetamine in Vietnam (Submitted to Journal of Substance Use & Addiction Treatment).
+
+## Vietnamese paper
+1. Trang NT, Cường TD, Linh ĐA, et al. NGHIÊN CỨU ỨNG DỤNG TRÍ TUỆ NHÂN TẠO TRONG SÀNG LỌC TRƯỚC SINH MỘT SỐ LỆCH BỘI NHIỄM SẮC THỂ (DOWN, EDWARD VÀ PATAU). VMJ. 2023;525(1B). doi:[10.51298/vmj.v525i1B.5107](https://doi.org/10.51298/vmj.v525i1B.5107)
+
+2. Thanh NX, Huy ĐĐ, Lực TV, Anh NT. 20. Bước đầu đánh giá kết quả của can thiệp đa yếu tố trên chức năng thể chất của người bệnh mắc sa sút trí tuệ tại viện dưỡng lão. TCNCYH. 2024;178(5):170-178. doi:[10.52852/tcncyh.v178i5.2421](https://doi.org/10.52852/tcncyh.v178i5.2421)
+
+3. Hoe HD, Giang NT, Trang NT, Diep NB, Huy DD, Giang LM. So sánh tình hình sử dụng methamphetamine trên bệnh nhân đang điều trị methadone tại Hà Nội và Thành phố Hồ Chí Minh (Accepted for publication)
+
+4. Diep NB, Trang NT, Huy DD, Anh NH, Hoe HD, Hieu TTM, Lap NV, Giang LM. Kết quả ban đầu của mô hình can thiệp thí điểm hỗ trợ người sử dụng ma túy tại cộng đồng ở Hà Nội năm 2022 (Accepted for publication)
+
+5. Nam TL, Diep NB, Huy DD, Giang NT, Thuy DH, Tam NTM, Canh HD, Giang LM. Đặc điểm sử dụng chất và một số yếu tố liên quan của người bệnh tham gia chương trình thí điểm cấp thuốc methadone nhiều ngày tại điện Điện Biên, Lai Châu và Hải Phòng năm 2021 - 2022 (Accepted for publication)
+
+6. Huy DD, Trang NT, Diep NB, Anh NH, Trang PH, Nga NTT, Giang LM. Xu hướng thay đổi sử dụng methamphetamine ở bệnh nhân điều trị methadone tại Hà Nội qua ba năm 2018 - 2021 (Accepted for publication)
+
+# Fellowship and awards
+## Fellowship
+D43 Fellowship on Training Program for Strengthening Research Capacity in Non-Communicable Diseases in Vietnam - University of Massachusetts Medical School and Hanoi Medical University | 2021-2023
+
+## Award
+1. 3rd prize - Hanoi Medical University student scientific conference 2017
+2. 3rd prize - Hanoi Medical University student scientific conference in English 2017
+3. 2nd prize - Ministry of Education and Training student scientific conference 2018
+
+# Conferences
+1. Phạm Quang Hải, Đỗ Đức Huy, Đặng Công Sơn. Desire to have children of people living with HIV/AIDS in Vietnam. Hanoi Medical University student scientific conference in 2017.
+
+2. Vũ Tố Giang, Đỗ Đức Huy. Application of DNA Microarray technique to detect 16 mutations in 4 common genes in deaf children in Hanoi, Vietnam. Third Prize, Hanoi Medical University student scientific conference in 2017.
+
+3. Vũ Tố Giang, Đỗ Đức Huy. Mutation detection for pediatric non-syndrome hearing loss by DNA microarray and Next-generation sequencing in Vietnam. Second Prize, The 4th Hanoi Medical University student scientific conference in English in 2018.
+
+4. Vũ Tố Giang, Đỗ Đức Huy. Applying Microarray and NGS to study polymorphisms of 18 genes in non-syndromic deaf children. Second Prize, Ministry of Education and Training student scientific conference in 2018.
+
+5. Đặng Thị Trang, Đỗ Đức Huy, Lê Thanh Hải. Training needs assessment on biorisk management among laboratories staff at human health and animal health sectors in Vietnam 2020. The 7th Hanoi Medical University student scientific conference in English in 2020.
+
+6. Phung NH, Nguyen CT, Tran TK, et al. A Combination of Multi-Branch CNN and Feature Rearrangement for Down Syndrome Prediction. 2023 International Conference on Artificial Intelligence in Information and Communication (ICAIIC).
+
+7. Huy DD, Duong TD, Jeffrey M, Pham TT, Christina LS. Improving OSCE Score Accuracy with Borderline Regression - Insights from VinUniversity. 2024 Vietnam Association for Medical Education conference.
+
+# Social activities
+## Clubs
+1. Hanoi Medical University Volunteer club - member
+2. Hanoi Medical University Rhetoric and Debate club - member
+
+## Other activities
+1. Y1+1: Y muỗi Go - Head of digital design and advertisement team | 2016
+2. Vietnam Private Sector Economic Forum - Volunteer | 2019
+3. TED - Volunteer translator | 2017 - now
+4. YBOX - Volunteer translator | 2018 - 2019
+5. Trái tim vì cộng đồng - Volunteer | 2024
+
+# Skills
+## Language
+English: 7.0 IELTS
+
+## Data analysis
+Stata, R, Python
+
+## Media
+Photoshop
+OBS studio
