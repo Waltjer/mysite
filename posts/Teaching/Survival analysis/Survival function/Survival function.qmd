@@ -16,15 +16,25 @@ categories:
 - While the event of interest is often death (in this case we study the time to death for patients having a specific disease) or recurrence (in this case we study the time to relapse of a certain disease), it is not limited to the medical field or epidemiology.
 
 In fact, it can be used in many domains. For example, we may also analyze the time until a person:
+
 - Getting cured from a certain disease.
+
 - Finding a new job after a period of unemployment.
+
 - Being arrested again after having been released from jail.
+
 - The first pregnancy.
+
 - The failure of a mechanical system or a machine.
+
 - A bank or a company goes bankrupt.
+
 - A customer buys a new product or stops its current subscription.
+
 - A letter is delivered.
+
 - A taxi picks you up after having called the taxi company.
+
 - An employee leaves the company.
 
 # Why do we need special methods for survival analysis?
@@ -60,7 +70,9 @@ There are three types of censoring:
 
 - By contrast, the censoring is the time at which censoring occurs: for example, the time at which the patient drops out of the study or the study ends.
 
-- We observe either the survival time T or else the censoring time C. Specifically, we observe the random variable $$Y = min(T,C)$$. If the event occurs before censoring (i.e. T < C) then we observe the true survival time T; if censoring occurs before the event (T > C) then we observe the censoring time. We also observe a status indicator,
+- We observe either the survival time T or else the censoring time C. Specifically, we observe the random variable $$Y = min(T,C)$$.
+
+If the event occurs before censoring (i.e. T < C) then we observe the true survival time T; if censoring occurs before the event (T > C) then we observe the censoring time. We also observe a status indicator,
 
 $$
 \delta = \begin{cases} 
@@ -166,7 +178,7 @@ So the table becomes:
 | 4   |  9   |      |      |               |
 | 5   |  16  |      |      |               |
 
-- $d(j)$ = the number of observations for each distinct event time. For this, the frequency for each distinct event time is useful:
+- $d(j)$ = the number of observations for each distinct event time. For this, the frequency for each distinct event time is useful are:
 
 ```
 ## time
@@ -184,7 +196,7 @@ The table becomes:
 | 4   |  9   |  1   |      |               |
 | 5   |  16  |  2   |      |               |
 
-- $R(j)$ = the remaining number of individuals at risk. For this, the distribution of time (censored and not censored) is useful:
+- $R(j)$ = the remaining number of individuals at risk. For this, the distribution of time (censored and not censored) is useful are:
 
 ```
 ## time
@@ -228,11 +240,11 @@ $$
 
 For each $j$, we thus take the cumulative product:
 
-- $j1$=0.8 * 1=0.8
-- $j2$=0.8 * 0.86=0.6856
-- $j3$=0.6856 * 0.80=0.54848
-- $j4$=0.54848 * 0.75=0.41136
-- $j5$=0.41136 * 0.33=0.1369829
+- $j1$ = 0.8 * 1 = 0.8
+- $j2$ = 0.8 * 0.86 = 0.6856
+- $j3$ = 0.6856 * 0.80 = 0.54848
+- $j4$ = 0.54848 * 0.75 = 0.41136
+- $j5$ = 0.41136 * 0.33 = 0.1369829
 
 So finally, we have the survival probabilities (rounded to 3 digits):
 
