@@ -166,19 +166,19 @@ Use the calculation formula to calculate the sensitivity and specificity for eac
 
 In the first case, the ratio is 0.54, with a cut-off of 0.4, meaning this ratio is higher than 0.4, so the predicted value is concluded to be 1, and vice versa for ratios lower than 0.4, the predicted value is concluded to be 0. From this, we have the following 2x2 table after comparing the predicted value with the actual value, the horizontal row is the predicted value and the vertical column is the actual value.
 
-| Actual/Predicted | 0 | 1 | All |
+| Actual/Predicted | **Predicted Positive** | **Predicted Negative** | All |
 |:-------|:---:|:---:|:----:|
-| 0 | 14 | 6 | 20 |
-| 1 | 0 | 30 | 30 |
-| All | 14 | 36 | 50 |
+| **Positive** | 30 | 0 | 30 |
+| **Negative** | 6 | 14 | 20 |
+| All | 36 | 14 | 50 |
 
 From this 2x2 table, we see that at a cut-off threshold of 0.4, there are 14/50 cases that correctly predict the negative status, 30/50 cases that correctly predict the positive status, and 6/50 cases that are predicted as positive but the result is negative. Applying the formula for calculating sensitivity, specificity, and accuracy to this result, we have:
 
-$$\text{Sensitivity(Độ nhạy)} = \frac{30}{30} = 100\%$$
+$$\text{Sensitivity} = \frac{30}{30} = 100\%$$
 
-$$\text{Specificity(Độ đặc hiệu)} = \frac{14}{20} = 70\%$$
+$$\text{Specificity} = \frac{14}{20} = 70\%$$
 
-$$\text{Accuracy(Độ chính xác)} = \frac{30 + 14}{30 + 20} = \frac{44}{50} = 88\%$$
+$$\text{Accuracy} = \frac{30 + 14}{30 + 20} = \frac{44}{50} = 88\%$$
 
 So with a cut-off threshold of 0.4, we have a sensitivity of 100%, a specificity of 70%, and an accuracy of 88%. Therefore, for each cut-off point of the ROC, we have a different sensitivity and specificity, from this sensitivity and specificity we plot a point on the Oxy graph of the ROC curve diagram. The set of plotted points of the cut-off points connected together will draw the ROC curve.
 

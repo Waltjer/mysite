@@ -106,7 +106,7 @@ br
 
 ![](media/Pasted image 20240329000410.png)
 
-Use "br "a specific variable"" to see that variable in excel-like format
+Use "br" "a specific variable" to see that variable in excel-like format
 
 ``` stata
 br sepallengthcm
@@ -129,7 +129,7 @@ codebook
 ![](media/Pasted image 20240328235117.png)
 
 "codebook" describes all the variables of the dataset. It shows the type, range of value, number of unique values, units, number of missing values, mean, standard deviation, and inter-quantile range (percentiles). In example, the sepallengthcm variable have the range from 4.3 to 7.9, with 35 unique values, units equal 0.1, no missing values, mean equal 5.84 with a standard deviation of 0.83, the median is 5.8, the interquantile-range is 5.1 and 6.4.
-You can also describe a specific variable instead of all variables using "codebook "variable name"" like this:
+You can also describe a specific variable instead of all variables using "codebook" "variable name" like this:
 
 ``` stata
 codebook sepallengthcm
@@ -141,7 +141,7 @@ In Stata, as well as all other statistical software, has the ability to manipula
 
 ### Change the name of a variable
 
-Change the name of variable sepallengthcm to a1 so that you don't only have to type a1 instead of sepallengthcm everytime you need to use it:
+Change the name of variable sepallengthcm to a1 so that you don't have to type a1 instead of sepallengthcm everytime you need to use it:
 
 ``` stata
 rename sepallengthcm a1
