@@ -1,0 +1,15 @@
+---
+title: "My blog"
+description: "This is where I store what I worked on and I can come back to them to revise my knowledge. I tried to explain them as easy as possible how you can do them by hand. I hope you get something from this and find it interesting as well."
+listing:
+  contents: posts
+  sort:
+    - "date"
+    - "title desc"
+  type: default
+  categories: true
+  fields: [image, date, title, author, reading-time]
+  feed:
+    categories: [news, posts]
+page-layout: full
+---

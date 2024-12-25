@@ -8,7 +8,9 @@ about:
   image-width: 17em
 ---
 
-Hi there! Welcome to my personal website - I hope that you can learn something new here about me - Then we can have a little fun chat - I'm planning to become a quantitative researcher in epidemiology and public health, and I'm trying hard to get there - Outside of work, I'm a nerd, a gamer, and a pop culture enthusiast -
+Hi there! Welcome to my personal website. I hope you’ll learn something new about me here, and maybe we can have a fun chat. I’m working hard to become a quantitative researcher in epidemiology and public health, which is a big goal of mine.
+
+Outside of work, I’m a nerd, gamer, and pop culture enthusiast. I also enjoy technology and coding—like building this website! I love the thrill of solving problems and creating something from scratch. Once I start, I can’t stop! But deciding what to do and when to start? Well, that’s a whole other story—procrastination is a global phenomenon, after all. 😄
 
 # Education
 
@@ -145,5 +147,4 @@ English: 7.0 IELTS
 Stata, R, Python
 
 ## Media
-Photoshop
-OBS studio
+Photoshop, OBS studio
