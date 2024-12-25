@@ -309,7 +309,7 @@ window.Quarto = {
 <p>You can type br (browse) to see the dataset in excel-like format with rows and columns</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>br</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><img src="media/Pasted image 20240329000410.png" class="img-fluid"></p>
-<p>Use “br”a specific variable”” to see that variable in excel-like format</p>
+<p>Use “br” “a specific variable” to see that variable in excel-like format</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>br sepallengthcm</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><img src="media/Pasted image 20240329000554.png" class="img-fluid"></p>
 <p>Command “d,s” gives the number of observations and the number of variables.</p>
@@ -317,7 +317,7 @@ window.Quarto = {
 <p><img src="media/Pasted image 20240328235042.png" class="img-fluid"></p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">codebook</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><img src="media/Pasted image 20240328235117.png" class="img-fluid"></p>
-<p>“codebook” describes all the variables of the dataset. It shows the type, range of value, number of unique values, units, number of missing values, mean, standard deviation, and inter-quantile range (percentiles). In example, the sepallengthcm variable have the range from 4.3 to 7.9, with 35 unique values, units equal 0.1, no missing values, mean equal 5.84 with a standard deviation of 0.83, the median is 5.8, the interquantile-range is 5.1 and 6.4. You can also describe a specific variable instead of all variables using “codebook”variable name”” like this:</p>
+<p>“codebook” describes all the variables of the dataset. It shows the type, range of value, number of unique values, units, number of missing values, mean, standard deviation, and inter-quantile range (percentiles). In example, the sepallengthcm variable have the range from 4.3 to 7.9, with 35 unique values, units equal 0.1, no missing values, mean equal 5.84 with a standard deviation of 0.83, the median is 5.8, the interquantile-range is 5.1 and 6.4. You can also describe a specific variable instead of all variables using “codebook” “variable name” like this:</p>
 <div class="sourceCode" id="cb6"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">codebook</span> sepallengthcm</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="basic-data-manipulation-with-stata" class="level2">
@@ -325,7 +325,7 @@ window.Quarto = {
 <p>In Stata, as well as all other statistical software, has the ability to manipulate data in every way you can imagine, so please again, <strong>KEEP THE ORIGINAL DATASET, NEVER EDIT IT BY HAND</strong>, because you can do it all by using Stata’s commands. When you face a problem, try to find the solution online.</p>
 <section id="change-the-name-of-a-variable" class="level3">
 <h3 class="anchored" data-anchor-id="change-the-name-of-a-variable">Change the name of a variable</h3>
-<p>Change the name of variable sepallengthcm to a1 so that you don’t only have to type a1 instead of sepallengthcm everytime you need to use it:</p>
+<p>Change the name of variable sepallengthcm to a1 so that you don’t have to type a1 instead of sepallengthcm everytime you need to use it:</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">rename</span> sepallengthcm a1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>The same for all the rest.</p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="kw">rename</span> sepalwidthcm a2</span>

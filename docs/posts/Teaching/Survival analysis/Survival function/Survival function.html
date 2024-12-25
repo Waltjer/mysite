@@ -260,7 +260,19 @@ window.Quarto = {
 <li>Sounds like a regression problem. But there is an important complication: some of the patients have survived until the end of the study. Such a patient’s survival time is said to be censored.</li>
 <li>While the event of interest is often death (in this case we study the time to death for patients having a specific disease) or recurrence (in this case we study the time to relapse of a certain disease), it is not limited to the medical field or epidemiology.</li>
 </ul>
-<p>In fact, it can be used in many domains. For example, we may also analyze the time until a person: - Getting cured from a certain disease. - Finding a new job after a period of unemployment. - Being arrested again after having been released from jail. - The first pregnancy. - The failure of a mechanical system or a machine. - A bank or a company goes bankrupt. - A customer buys a new product or stops its current subscription. - A letter is delivered. - A taxi picks you up after having called the taxi company. - An employee leaves the company.</p>
+<p>In fact, it can be used in many domains. For example, we may also analyze the time until a person:</p>
+<ul>
+<li><p>Getting cured from a certain disease.</p></li>
+<li><p>Finding a new job after a period of unemployment.</p></li>
+<li><p>Being arrested again after having been released from jail.</p></li>
+<li><p>The first pregnancy.</p></li>
+<li><p>The failure of a mechanical system or a machine.</p></li>
+<li><p>A bank or a company goes bankrupt.</p></li>
+<li><p>A customer buys a new product or stops its current subscription.</p></li>
+<li><p>A letter is delivered.</p></li>
+<li><p>A taxi picks you up after having called the taxi company.</p></li>
+<li><p>An employee leaves the company.</p></li>
+</ul>
 </section>
 <section id="why-do-we-need-special-methods-for-survival-analysis" class="level1">
 <h1>Why do we need special methods for survival analysis?</h1>
@@ -295,8 +307,9 @@ window.Quarto = {
 <li><p>For each individual, we suppose that there’s a true failure or event time T, as well as a true censoring time C.</p></li>
 <li><p>The survival time represents the time at which the event of interest occurs (such as death).</p></li>
 <li><p>By contrast, the censoring is the time at which censoring occurs: for example, the time at which the patient drops out of the study or the study ends.</p></li>
-<li><p>We observe either the survival time T or else the censoring time C. Specifically, we observe the random variable <span class="math display">\[Y = min(T,C)\]</span>. If the event occurs before censoring (i.e.&nbsp;T &lt; C) then we observe the true survival time T; if censoring occurs before the event (T &gt; C) then we observe the censoring time. We also observe a status indicator,</p></li>
+<li><p>We observe either the survival time T or else the censoring time C. Specifically, we observe the random variable <span class="math display">\[Y = min(T,C)\]</span>.</p></li>
 </ul>
+<p>If the event occurs before censoring (i.e.&nbsp;T &lt; C) then we observe the true survival time T; if censoring occurs before the event (T &gt; C) then we observe the censoring time. We also observe a status indicator,</p>
 <p><span class="math display">\[
 \delta = \begin{cases}
 1 &amp; \text{if } T \leq C \\
@@ -533,7 +546,7 @@ window.Quarto = {
 </tbody>
 </table>
 <ul>
-<li><span class="math inline">\(d(j)\)</span> = the number of observations for each distinct event time. For this, the frequency for each distinct event time is useful:</li>
+<li><span class="math inline">\(d(j)\)</span> = the number of observations for each distinct event time. For this, the frequency for each distinct event time is useful are:</li>
 </ul>
 <pre><code>## time
 ##  2  5  7  9 16 
@@ -588,7 +601,7 @@ window.Quarto = {
 </tbody>
 </table>
 <ul>
-<li><span class="math inline">\(R(j)\)</span> = the remaining number of individuals at risk. For this, the distribution of time (censored and not censored) is useful:</li>
+<li><span class="math inline">\(R(j)\)</span> = the remaining number of individuals at risk. For this, the distribution of time (censored and not censored) is useful are:</li>
 </ul>
 <pre><code>## time
 ##  2  3  5  7  9 16 18 
@@ -707,11 +720,11 @@ window.Quarto = {
 \]</span></p>
 <p>For each <span class="math inline">\(j\)</span>, we thus take the cumulative product:</p>
 <ul>
-<li><span class="math inline">\(j1\)</span>=0.8 * 1=0.8</li>
-<li><span class="math inline">\(j2\)</span>=0.8 * 0.86=0.6856</li>
-<li><span class="math inline">\(j3\)</span>=0.6856 * 0.80=0.54848</li>
-<li><span class="math inline">\(j4\)</span>=0.54848 * 0.75=0.41136</li>
-<li><span class="math inline">\(j5\)</span>=0.41136 * 0.33=0.1369829</li>
+<li><span class="math inline">\(j1\)</span> = 0.8 * 1 = 0.8</li>
+<li><span class="math inline">\(j2\)</span> = 0.8 * 0.86 = 0.6856</li>
+<li><span class="math inline">\(j3\)</span> = 0.6856 * 0.80 = 0.54848</li>
+<li><span class="math inline">\(j4\)</span> = 0.54848 * 0.75 = 0.41136</li>
+<li><span class="math inline">\(j5\)</span> = 0.41136 * 0.33 = 0.1369829</li>
 </ul>
 <p>So finally, we have the survival probabilities (rounded to 3 digits):</p>
 <table class="caption-top table">

@@ -8,9 +8,9 @@
 
 <meta name="author" content="Huy Do">
 <meta name="dcterms.date" content="2024-02-21">
-<meta name="description" content="Your introduction to data structure, data structure in Stata, why must you store your code in a do file, and some basic data manipulating techiques">
+<meta name="description" content="You will learn about ROC concept and how to draw ROC curve using stata and R">
 
-<title>Data structure and Stata overview</title>
+<title>Receiver operating characteristic (ROC)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -192,9 +192,9 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data structure and Stata overview</h1>
+<h1 class="title">Receiver operating characteristic (ROC)</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Statistic</div>
+    <div class="quarto-category">Introduction</div>
     <div class="quarto-category">Concept</div>
     <div class="quarto-category">Stata</div>
     <div class="quarto-category">R</div>
@@ -203,7 +203,7 @@ window.Quarto = {
 
 <div>
   <div class="description">
-    Your introduction to data structure, data structure in Stata, why must you store your code in a do file, and some basic data manipulating techiques
+    You will learn about ROC concept and how to draw ROC curve using stata and R
   </div>
 </div>
 
@@ -761,39 +761,45 @@ window.Quarto = {
 </table>
 <p>In the first case, the ratio is 0.54, with a cut-off of 0.4, meaning this ratio is higher than 0.4, so the predicted value is concluded to be 1, and vice versa for ratios lower than 0.4, the predicted value is concluded to be 0. From this, we have the following 2x2 table after comparing the predicted value with the actual value, the horizontal row is the predicted value and the vertical column is the actual value.</p>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 25%">
+</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Actual/Predicted</th>
-<th style="text-align: center;">0</th>
-<th style="text-align: center;">1</th>
+<th style="text-align: center;"><strong>Predicted Positive</strong></th>
+<th style="text-align: center;"><strong>Predicted Negative</strong></th>
 <th style="text-align: center;">All</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">0</td>
-<td style="text-align: center;">14</td>
-<td style="text-align: center;">6</td>
-<td style="text-align: center;">20</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">1</td>
+<td style="text-align: left;"><strong>Positive</strong></td>
+<td style="text-align: center;">30</td>
 <td style="text-align: center;">0</td>
 <td style="text-align: center;">30</td>
-<td style="text-align: center;">30</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Negative</strong></td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">14</td>
+<td style="text-align: center;">20</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">All</td>
-<td style="text-align: center;">14</td>
 <td style="text-align: center;">36</td>
+<td style="text-align: center;">14</td>
 <td style="text-align: center;">50</td>
 </tr>
 </tbody>
 </table>
 <p>From this 2x2 table, we see that at a cut-off threshold of 0.4, there are 14/50 cases that correctly predict the negative status, 30/50 cases that correctly predict the positive status, and 6/50 cases that are predicted as positive but the result is negative. Applying the formula for calculating sensitivity, specificity, and accuracy to this result, we have:</p>
-<p><span class="math display">\[\text{Sensitivity(Độ nhạy)} = \frac{30}{30} = 100\%\]</span></p>
-<p><span class="math display">\[\text{Specificity(Độ đặc hiệu)} = \frac{14}{20} = 70\%\]</span></p>
-<p><span class="math display">\[\text{Accuracy(Độ chính xác)} = \frac{30 + 14}{30 + 20} = \frac{44}{50} = 88\%\]</span></p>
+<p><span class="math display">\[\text{Sensitivity} = \frac{30}{30} = 100\%\]</span></p>
+<p><span class="math display">\[\text{Specificity} = \frac{14}{20} = 70\%\]</span></p>
+<p><span class="math display">\[\text{Accuracy} = \frac{30 + 14}{30 + 20} = \frac{44}{50} = 88\%\]</span></p>
 <p>So with a cut-off threshold of 0.4, we have a sensitivity of 100%, a specificity of 70%, and an accuracy of 88%. Therefore, for each cut-off point of the ROC, we have a different sensitivity and specificity, from this sensitivity and specificity we plot a point on the Oxy graph of the ROC curve diagram. The set of plotted points of the cut-off points connected together will draw the ROC curve.</p>
 <p>In Stata, we perform ROC curve analysis using the following command:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">roctab</span> Condition Probability, <span class="kw">detail</span> <span class="kw">graph</span> summary</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>

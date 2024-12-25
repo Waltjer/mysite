@@ -6,10 +6,8 @@ listing:
   sort:
     - "date"
     - "title desc"
-  type: default
+  type: grid
   categories: true
-  fields: [image, date, title, author, reading-time]
-  feed:
-    categories: [news, posts]
+  fields: [image, date, title, author, reading-time, description]
 page-layout: full
 ---
