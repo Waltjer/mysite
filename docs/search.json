@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Huy Duc Do",
     "section": "",
-    "text": "Hi there! Welcome to my personal website. I hope you’ll learn something new about me here, and maybe we can have a fun chat. I’m working hard to become a quantitative researcher in epidemiology and public health, which is a big goal of mine.\nOutside of work, I’m a nerd, gamer, and pop culture enthusiast. I also enjoy technology and coding—like building this website! I love the thrill of solving problems and creating something from scratch. Once I start, I can’t stop! But deciding what to do and when to start? Well, that’s a whole other story—procrastination is a global phenomenon, after all. 😄"
+    "text": "huydd1905@gmail.com | huy.dd@vinuni.edu.vn | huy.do1@umassmed.edu  My website | LinkedIn | GitHub | ORCID"
   },
   {
     "objectID": "about.html",
@@ -60,21 +60,21 @@
     "href": "index.html#research-projects",
     "title": "Huy Duc Do",
     "section": "Research projects",
-    "text": "Research projects\n\nComplete DNA-microarray technical process to identify congenital hearing loss gene mutations - Hanoi Medical University funded study - Data collection, data analysis\nCompleting the technological process of producing a kit to determine the level of sperm DNA breakage to diagnose male infertility - Vietnam Ministry of Health funded study - Data collection, data analysis\nEvaluating the actual effectiveness of the AstraZeneca vaccine and important factors in preventing SARS-CoV-2 infection in some at-risk communities in Vietnam - Vietnam State funded study - Data collection, data analysis\nResearch to build an artificial intelligence system to support prenatal screening for some common abnormalities in Vietnam - Vietnam State funded study - Data collection, data analysis\n\n5 - Screen, Treat and Retain Meth-using People With Opioid Use Disorders at Methadone Clinics (STAR-OM) - US NIH funded study - Data collection, data analysis\n\nFeasibility Study for the Vietnam Cohort Study (VINCohort) - VinUni funded study (Ongoing) - Coordinator\nApply AI models in predicting nutrition and physical activity level of Vietnamese youth - Vietnam State funded study (Ongoing) - Data collection, data analysis\nRapid Reviews/Infectious Diseases - Gates Foundation funded study (Ongoing) - Assistant editor\nPrevalence of sexual orientation and gender identity change efforts and related psychosocial well-being in Vietnam - UNFPA funded study (Ongoing) - Data collection, data analysis"
+    "text": "Research projects\n\nComplete DNA-microarray technical process to identify congenital hearing loss gene mutations  Hanoi Medical University funded study  Data collection, data analysis\nCompleting the technological process of producing a kit to determine the level of sperm DNA breakage to diagnose male infertility  Vietnam Ministry of Health funded study  Data collection, data analysis\nEvaluating the actual effectiveness of the AstraZeneca vaccine and important factors in preventing SARS-CoV-2 infection in some at-risk communities in Vietnam  Vietnam State funded study  Data collection, data analysis\nResearch to build an artificial intelligence system to support prenatal screening for some common abnormalities in Vietnam  Vietnam State funded study  Data collection, data analysis\nScreen, Treat and Retain Meth-using People With Opioid Use Disorders at Methadone Clinics (STAR-OM)  US NIH funded study  Data collection, data analysis\nApply AI models in predicting nutrition and physical activity level of Vietnamese youth  Vietnam State funded study  Data collection, data analysis\nPrevalence of sexual orientation and gender identity change efforts and related psychosocial well-being in Vietnam  UNFPA funded study  Data collection, data analysis\nClinical, laboratory, and microbiological differences between early- and late-onset neonatal sepsis in preterm infants: a cross-sectional study in Vietnam  Research study  Data analysis\nRapid Reviews/Infectious Diseases  Gates Foundation funded study (Ongoing)  Assistant editor\nRisk Factor for Chronic Disease In Asia: A Secondary Data Analysis Of Steps Survey In 25 Countries  (Ongoing)  Data analysis\nFeasibility Study for the Vietnam Cohort Study (VINCohort)  VinUni funded study  Coordinator\nImproving OSCE Score Accuracy with Borderline Regression - Insights from VinUniversity (Ongoing)  VinUni funded study  Data analysis\nMOTOAIR-VN: Air Pollution Exposure and Health Impact among Scooter Delivery Drivers in Vietnam  VinUni funded study  Data collection, data analysis"
   },
   {
     "objectID": "index.html#primary-education",
     "href": "index.html#primary-education",
     "title": "Huy Duc Do",
     "section": "Primary education",
-    "text": "Primary education\nHanoi University of Science - High School for Gifted Students - Hanoi, Vietnam - Biology | Sept 2011 - June 2014\nHanoi Medical University - Hanoi, Vietnam - Doctor of Preventive Medicine | Sept 2015 - June 2021\nHanoi Medical University - Hanoi, Vietnam - Master of Epidemiology | Sept 2021 - June 2023"
+    "text": "Primary education\nBiology  Hanoi University of Science, High School for Gifted Students Sept 2011 — June 2014\nDoctor of Preventive Medicine  Hanoi Medical University Sept 2015 — June 2021\nMaster of Epidemiology  Hanoi Medical University Sept 2021 — June 2023"
   },
   {
     "objectID": "index.html#teaching-and-mentoring",
     "href": "index.html#teaching-and-mentoring",
     "title": "Huy Duc Do",
     "section": "Teaching and mentoring",
-    "text": "Teaching and mentoring\n\nThesis Advisor, Center for Training and Research on Substance Abuse—HIV at Hanoi Medical University (2022 - 2024)\nTeaching Assistant, VinUniversity (May 2024 - now)"
+    "text": "Teaching and mentoring\n\nThesis Advisor, Center for Training and Research on Substance Abuse—HIV  Hanoi Medical University 2022 — 2024\nTeaching Assistant  VinUniversity May 2024 — Now\nSelf hosted coding class"
   },
   {
     "objectID": "index.html#work-experience",
@@ -446,5 +446,19 @@
     "title": "Survival function",
     "section": "By gender",
     "text": "By gender\nSummary:\nlibrary(survival)\nkm &lt;- survfit(Surv(time, event) ~ gender, data = data)\nsummary(km)\n\nKaplan-Meier survival curve:\nplot(km,\n     xlab = \"Time\",\n     ylab = \"Survival probability\",\n     col = c(\"blue\", \"red\"), # Assuming you have two genders\n     lty = 1:2 # Different line types for each gender\n)"
+  },
+  {
+    "objectID": "index.html#additional-education",
+    "href": "index.html#additional-education",
+    "title": "Huy Duc Do",
+    "section": "Additional Education",
+    "text": "Additional Education\n\nCoursera - EdX\n\nSystems thinking in public health  Johns Hopkins University\nIntroduction to Systematic Review and Meta-Analysis  Johns Hopkins University\nGlobal Health: An Interdisciplinary Overview  University Of Geneva\nLearning How To Learn: Powerful mental tools to help you master tough subjects  McMaster University, University Of California San Diego\nEpidemiology: The Basic Science Of Public Health  The University Of North Carolina At Chapel Hill\nIntroduction to Probability and Data with R  Duke University\nAI For Everyone  DeepLearningAI\nMachine Learning  DeepLearningAI\nGoogle Data Analytics Specialization  Google\nMicroMasters Program Statistics and Data Science (Currently enrolled)  Massachusetts Institute of Technology\n\n\n\nShort-term training\n\nNIH Grant Writing Course  Keith W. Kelley (Professor Emeritus of Immunophysiology, University of Illinois)\nIntroduction to Modeling and Cost-Effectiveness  Luong Nguyen Liem Binh (Associate Professor in Health Economic Université de Paris Cité)"
+  },
+  {
+    "objectID": "index.html#employment",
+    "href": "index.html#employment",
+    "title": "Huy Duc Do",
+    "section": "Employment",
+    "text": "Employment\n\nIntern  Bio-risk Management Remote Engagement, Vietnam One Health University Network 2018 — 2020\nData Analyst  Center for Training and Research on Substance Abuse HIV, Hanoi Medical University 2022 — 2024\nIntern  The George Washington Institute of Data Science and Artificial Intelligence (ISODS) June 2024 — June 2025\nResearch Project Coordinator  College of Health Sciences, Vin University May 2024 — March 2026\nResearch Assistant  College of Health Sciences, Vin University March 2026 — Current"
   }
 ]
