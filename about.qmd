@@ -1,9 +1,0 @@
----
-title: "My blog"
----
-
-About this site
-
-```{r}
-1 + 1
-```
