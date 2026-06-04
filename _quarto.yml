@@ -13,8 +13,6 @@ website:
 format:
   html:
     other-links:
-      - text: My site
-        href: https://waltjer.github.io/mysite/
       - icon: linkedin
         text: LinkedIn
         href: https://www.linkedin.com/in/huy-do-a9681a156/
@@ -26,6 +24,9 @@ format:
         href: https://www.facebook.com/Waltjer.DH
       - text: Email
         href: mailto:huydd1905@gmail.com
+      - text: ORCID
+        href: https://orcid.org/0000-0001-9097-5212
+
     theme: 
       light: minty
       dark: darkly
